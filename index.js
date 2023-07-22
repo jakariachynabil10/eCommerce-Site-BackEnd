@@ -33,6 +33,15 @@ async function run() {
       res.send(result)
     })
 
+    app.get('/searchCollege', async(req, res)=>{
+      // console.log(req.query.search)
+      const search = req.query.search
+      console.log(search)
+      const query = { college_name : { $regex : search}}
+      const result = await allColleges.find(query).toArray();
+      res.send(result);
+    })
+
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
