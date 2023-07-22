@@ -1,0 +1,162 @@
+[
+  {
+    "college_name": "EFG University",
+    "college_image": "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=886&q=80",
+    "admission_date": "2023-09-10",
+    "research_history": "EFG University is renowned for its contributions to environmental sustainability and renewable energy research.",
+    "sports": ["Baseball", "Track and Field", "Golf"],
+    "rating": 4.7
+  },
+  {
+    "college_name": "PQR College",
+    "college_image": "https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    "admission_date": "2023-09-05",
+    "research_history": "PQR College has a strong history of research in medical sciences and healthcare advancements.",
+    "sports": ["Hockey", "Rugby", "Archery"],
+    "rating": 4.4
+  },
+  {
+    "college_name": "LMK University",
+    "college_image": "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    "admission_date": "2023-08-20",
+    "research_history": "LMK University is a pioneer in artificial intelligence and machine learning research.",
+    "sports": ["Cycling", "Diving", "Fencing"],
+    "rating": 4.9
+  },
+  {
+    "college_name": "JKL Institute",
+    "college_image": "https://images.unsplash.com/photo-1592066575517-58df903152f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=998&q=80",
+    "admission_date": "2023-08-25",
+    "research_history": "JKL Institute has made significant breakthroughs in nanotechnology and materials science research.",
+    "sports": ["Wrestling", "Gymnastics", "Karate"],
+    "rating": 4.6
+  },
+  {
+    "college_name": "MNO University",
+    "college_image": "https://images.unsplash.com/photo-1590579491624-f98f36d4c763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1443&q=80",
+    "admission_date": "2023-09-15",
+    "research_history": "MNO University boasts a long history of research in literature and humanities.",
+    "sports": ["Tennis", "Squash", "Taekwondo"],
+    "rating": 4.3
+  },
+  {
+    "college_name": "RST College",
+    "college_image": "https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80",
+    "admission_date": "2023-09-02",
+    "research_history": "RST College is known for its contributions to social sciences and community development research.",
+    "sports": ["Basketball", "Sailing", "Yoga"],
+    "rating": 4.2
+  },
+  {
+    "college_name": "UVW Institute",
+    "college_image": "https://images.unsplash.com/photo-1613896527026-f195d5c818ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admission_date": "2023-08-28",
+    "research_history": "UVW Institute leads the way in research related to sustainable agriculture and food security.",
+    "sports": ["Cricket", "Volleyball", "Handball"],
+    "rating": 4.8
+  },
+  {
+    "college_name": "HIJ College",
+    "college_image": "https://images.unsplash.com/photo-1613901118748-3da557eb37cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admission_date": "2023-08-18",
+    "research_history": "HIJ College has a strong focus on research in renewable energy and clean technologies.",
+    "sports": ["Football", "Swimming", "Rugby"],
+    "rating": 4.5
+  },
+  {
+    "college_name": "EKL University",
+    "college_image": "https://images.unsplash.com/photo-1613662449996-35130a75be10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+    "admission_date": "2023-09-08",
+    "research_history": "EKL University has played a key role in advancements in computer science and technology research.",
+    "sports": ["Soccer", "Badminton", "Table Tennis"],
+    "rating": 4.6
+  },
+  {
+    "college_name": "GHI Institute",
+    "college_image": "https://images.unsplash.com/photo-1613688365965-8abc666fe1e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admission_date": "2023-08-22",
+    "research_history": "GHI Institute is a leader in research on climate change and environmental conservation.",
+    "sports": ["Hockey", "Archery", "Fencing"],
+    "rating": 4.4
+  },
+  {
+    "college_name": "NOP University",
+    "college_image": "https://images.unsplash.com/photo-1613896809181-3c1a5b6083a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admission_date": "2023-09-12",
+    "research_history": "NOP University has made significant contributions to the field of medicine and healthcare research.",
+    "sports": ["Baseball", "Track and Field", "Golf"],
+    "rating": 4.9
+  },
+  {
+    "college_name": "QRS College",
+    "college_image": "https://images.unsplash.com/photo-1613902964117-bef5d15f1c94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admission_date": "2023-09-07",
+    "research_history": "QRS College is recognized for its research in artificial intelligence and machine learning.",
+    "sports": ["Hockey", "Rugby", "Karate"],
+    "rating": 4.3
+  },
+  {
+    "college_name": "TUV Institute",
+    "college_image": "https://images.unsplash.com/photo-1613896809181-3c1a5b6083a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admission_date": "2023-08-23",
+    "research_history": "TUV Institute has a strong research focus on quantum physics and theoretical sciences.",
+    "sports": ["Wrestling", "Gymnastics", "Yoga"],
+    "rating": 4.7
+  },
+  {
+    "college_name": "VWX University",
+    "college_image": "https://images.unsplash.com/photo-1613893251438-c5f02a86cbad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admission_date": "2023-09-18",
+    "research_history": "VWX University is known for its contributions to literature and humanities research.",
+    "sports": ["Tennis", "Squash", "Taekwondo"],
+    "rating": 4.5
+  },
+  {
+    "college_name": "YZA College",
+    "college_image": "https://images.unsplash.com/photo-1613876519051-99ecba151c6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admission_date": "2023-09-14",
+    "research_history": "YZA College is a hub for research on social sciences and community development.",
+    "sports": ["Basketball", "Sailing", "Table Tennis"],
+    "rating": 4.6
+  },
+  {
+    "college_name": "ABC Institute",
+    "college_image": "https://images.unsplash.com/photo-1613876519051-99ecba151c6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admission_date": "2023-09-01",
+    "research_history": "ABC Institute is renowned for its research in sustainable agriculture and food security.",
+    "sports": ["Cricket", "Volleyball", "Golf"],
+    "rating": 4.4
+  },
+  {
+    "college_name": "DEF University",
+    "college_image": "https://images.unsplash.com/photo-1501503069356-3c6b82a17d89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admission_date": "2023-09-06",
+    "research_history": "DEF University is a pioneer in the field of renewable energy and clean technologies.",
+    "sports": ["Football", "Swimming", "Handball"],
+    "rating": 4.8
+  },
+  {
+    "college_name": "GHI College",
+    "college_image": "https://images.unsplash.com/photo-1463143296037-46790ff95a7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admission_date": "2023-09-03",
+    "research_history": "GHI College has made significant contributions to advancements in computer science and technology.",
+    "sports": ["Soccer", "Badminton", "Archery"],
+    "rating": 4.2
+  },
+  {
+    "college_name": "JKL Institute",
+    "college_image": "https://images.unsplash.com/photo-1546953304-5d96f43c2e94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=929&q=80",
+    "admission_date": "2023-09-16",
+    "research_history": "JKL Institute leads the way in research related to climate change and environmental conservation.",
+    "sports": ["Hockey", "Rugby", "Fencing"],
+    "rating": 4.9
+  },
+  {
+    "college_name": "MNO University",
+    "college_image": "https://images.unsplash.com/photo-1576164285450-6d26c5b1a2a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+    "admission_date": "2023-08-31",
+    "research_history": "MNO University has a strong research focus on medical sciences and healthcare advancements.",
+    "sports": ["Baseball", "Track and Field", "Karate"],
+    "rating": 4.5
+  }
+]
