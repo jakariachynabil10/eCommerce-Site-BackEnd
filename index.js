@@ -9,7 +9,7 @@ const port = 4612
 app.use(cors())
 app.use(express.json())
 
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.aoalbnp.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
@@ -27,20 +27,33 @@ async function run() {
     await client.connect();
 
     const allColleges = client.db("eCommerceSite").collection("allColleges")
+    const research = client.db("eCommerceSite").collection("research")
 
     app.get("/allColleges", async (req, res)=>{
       const result = await allColleges.find().toArray()
       res.send(result)
     })
 
+    app.get("/research", async(req, res)=>{
+      const result = await research.find().toArray()
+      res.send(result)
+    })
+
     app.get('/searchCollege', async(req, res)=>{
       // console.log(req.query.search)
       const search = req.query.search
-      console.log(search)
       const query = { college_name : { $regex : search}}
       const result = await allColleges.find(query).toArray();
       res.send(result);
     })
+
+    app.get("/allColleges/:id", async (req, res) => {
+      const id = req.params.id;
+    
+     const query = {_id : new ObjectId(id)}
+      const result = await allColleges.findOne(query);
+      res.send(result);
+    });
 
 
     // Send a ping to confirm a successful connection
