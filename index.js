@@ -28,6 +28,7 @@ async function run() {
 
     const allColleges = client.db("eCommerceSite").collection("allColleges")
     const research = client.db("eCommerceSite").collection("research")
+    const applyForAdmission = client.db("eCommerceSite").collection("applied")
 
     app.get("/allColleges", async (req, res)=>{
       const result = await allColleges.find().toArray()
@@ -54,6 +55,17 @@ async function run() {
       const result = await allColleges.findOne(query);
       res.send(result);
     });
+
+    app.post("/admissionApply", async(req, res)=>{
+      const appliedDetails = req.body
+      const result = await applyForAdmission.insertOne(appliedDetails)
+      res.send(result)
+    })
+
+    app.get("/admissionApply", async (req, res)=>{
+      const result = await applyForAdmission.find().toArray()
+      res.send(result)
+    })
 
 
     // Send a ping to confirm a successful connection
