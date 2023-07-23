@@ -28,11 +28,57 @@ async function run() {
     const allColleges = client.db("eCommerceSite").collection("allColleges");
     const research = client.db("eCommerceSite").collection("research");
     const applyForAdmission = client.db("eCommerceSite").collection("applied");
+    const UserCollection = client.db("eCommerceSite").collection("users");
 
     app.get("/allCollege", async (req, res) => {
       const result = await allColleges.find().toArray();
       res.send(result);
     });
+
+
+    app.get("/users", async (req, res) => {
+      let query = {};
+      if (req.query?.email) {
+        query = { email: req.query.email,  };
+      }
+      const result = await UserCollection.find(query).toArray();
+      res.send(result);
+    });
+
+     app.post("/users",  async (req, res) => {
+      const user = req.body;
+      const query = { email: user.email };
+      const existingUser = await UserCollection.findOne(query);
+
+      if (existingUser) {
+        return res.send({ message: "user already exists" });
+      }
+
+      const result = await UserCollection.insertOne(user);
+      res.send(result);
+    });
+
+    app.patch("/users/:id", async(req, res)=>{
+       const id = req.params.id;
+     const filter = {_id : new ObjectId(id)}
+      const update = req.body
+      console.log(update)
+      const option = {upsert : true}
+      const updateDoc = {
+        $set: {
+          name: update.name,
+          email : update.email,
+          phone : update.phone,
+          status : update.status
+        },
+      };
+      const result = await UserCollection.updateOne(filter, updateDoc, option);
+      res.send(result);
+    })
+
+
+
+
 
     app.get("/research", async (req, res) => {
       const result = await research.find().toArray();
